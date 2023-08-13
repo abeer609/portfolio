@@ -1,0 +1,35 @@
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Chakra Petch", sans-serif !important;
+}
+p {
+  font-family: "Inter";
+}
+
+.left {
+  width: 20rem;
+}
+
+.avatar {
+  height: 12rem;
+  width: 12rem;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+}
+
+@media (min-width: 992px) {
+  .intro {
+    position: fixed;
+    max-width: 20rem;
+    margin-top: 5rem;
+  }
+  .main {
+    margin-left: 20rem;
+  }
+}
